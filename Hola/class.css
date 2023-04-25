@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./orange-background-desktop-wallpaper-cute-vector_53876-136872.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleContainer{
+    background-color: #fa4402;
+    border-radius: 5px;
+}
+.shadow{
+    box-shadow: 12px 12px 12px 12px #fffefc !important;
+}
+.welcome{
+    background-color: #fa4402;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+}
+.labelInputContainer{
+    text-align: left;
+}
+#mainContainer{
+/*     padding: 0 !important; */
+    text-align: center;
+}
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    color: black;
+    margin-top: 0.5rem;
+}
+a:hover{
+    cursor: pointer;
+}
